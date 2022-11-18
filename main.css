@@ -1,0 +1,62 @@
+/* RESET */
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding-top: 100px;
+  }
+  
+  /* UTILIDADES */
+  .container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* COMPONENTES */
+  .banner {
+    background-image: url(https://picsum.photos/id/237/534/367);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .banner .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .transbox {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* alpha */
+  }
+  
+  /* ESTILOS ESPECIFICOS DEL SITIO */
+  .main-banner {
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+  }
+  
+  .contacto {
+    height: 600px;
+    background-image: url(https://picsum.photos/seed/picsum/536/354);
+  }
